@@ -89,10 +89,6 @@ export default function Home() {
           Split Ticketing Search
         </h1>
 
-        <p className="description">
-          Find potential savings by splitting your train ticket.
-        </p>
-
         <form onSubmit={search} className="search-form">
           <Autocomplete
             id="from"
